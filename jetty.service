@@ -1,0 +1,8 @@
+[Unit]
+Description=Jetty Servlet Container
+
+[Service]
+ExecStart=/usr/share/jetty/jetty.sh
+
+[Install]
+WantedBy=multi-user.target
